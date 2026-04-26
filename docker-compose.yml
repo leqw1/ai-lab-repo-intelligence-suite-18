@@ -1,0 +1,7 @@
+services:
+  ai_lab_repo_intelligence_suite_18:
+    build: .
+    ports:
+      - "8000:8000"
+    env_file:
+      - .env.example
